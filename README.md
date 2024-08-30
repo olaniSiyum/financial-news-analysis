@@ -35,4 +35,11 @@ matplotlib seaborn nltk pytest numpy)
 pip freeze > requirements.txt
 ```
 ## 3. Initial Exploratory Data Analysis (EDA)
-`Publisher Activity:` Count the number of articles per publisher.
+**Publisher Activity:** Count the number of articles per publisher.
+![Publication Trends Over Time](https://github.com/olaniSiyum/financial-news-analysis/blob/main/src/image/number_of_publication.png)
+
+**Sentiment Analysis:**
+![Sentiment Distribution](https://github.com/olaniSiyum/financial-news-analysis/blob/main/src/image/Sentiment.png)
+**Topic Modeling:**
+![Top 10 Common Keywords in Headlines](https://github.com/olaniSiyum/financial-news-analysis/blob/main/src/image/top10Headlines.png)
+![Word Cloud of Headlines](https://github.com/olaniSiyum/financial-news-analysis/blob/main/src/image/wordcloud.png)
