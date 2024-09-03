@@ -1,6 +1,6 @@
 # financial-news-analysis
 ## Overview
-This project involves a comprehensive analysis of financial news data to uncover potential correlations between news sentiment and stock market movements. The goal is to leverage Data Engineering (DE), Financial Analytics (FA), and Machine Learning Engineering (MLE) techniques to explore how financial news influences market behavior. 
+This project is focused on setting up the development environment, establishing version control with Git and GitHub, and conducting an initial Exploratory Data Analysis (EDA) on the financial news dataset. This task serves as the foundation for subsequent analysis and model development.
 # Getting Started
 ## 1. Repository and Branch Setup
 1. **Create a GitHub Repository:**
