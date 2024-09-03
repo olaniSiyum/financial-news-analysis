@@ -43,15 +43,3 @@ pip freeze > requirements.txt
 **Topic Modeling:**
 ![Top 10 Common Keywords in Headlines](https://github.com/olaniSiyum/financial-news-analysis/blob/main/src/image/top10Headlines.png)
 ![Word Cloud of Headlines](https://github.com/olaniSiyum/financial-news-analysis/blob/main/src/image/wordcloud.png)
-## 4. Correlation between News and Stock Movement
-**Normalize Dates**
-. Align dates in both the analyst_ratings (news) and stock datasets to ensure that each news
-item corresponds to the correct trading day.
-. If necessary, convert the news date column to match the format and timezone of the stock price data.
-**Compute Daily Returns:**
-Calculate the daily percentage changes in stock prices to represent stock movements.
-**Aggregate Daily Sentiment**
-If multiple articles appear on the same day, calculate the average sentiment score for that day.
-**Calculate Correlation:**
-Merge the daily sentiment scores with the stock daily returns.
-Determine the Pearson correlation coefficient between the average daily sentiment scores and stock daily returns.
